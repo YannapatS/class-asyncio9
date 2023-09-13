@@ -5,7 +5,7 @@ import asyncio
 import aiomqtt
 from enum import Enum
 
-student_id = "6300001"
+student_id = "6310301019"
 
 # State 
 S_OFF       = 'OFF'
@@ -95,6 +95,8 @@ async def CoroWashingMachine(w, client):
         
 
         # wash 10 seconds, if out of balance detected then fault
+
+        
 
         # rinse 10 seconds, if motor failure detect then fault
 
